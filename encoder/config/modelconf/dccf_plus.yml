@@ -1,0 +1,62 @@
+optimizer:
+  name: adam
+  lr: 1.0e-3
+  weight_decay: 0
+
+train:
+  epoch: 3000
+  batch_size: 4096
+  save_model: true
+  loss: pairwise
+  test_step: 3
+  reproducible: true
+  seed: 2023
+  patience: 5
+
+test:
+  metrics: [recall, ndcg]
+  k: [5, 10, 20]
+  batch_size: 1024
+
+data:
+  type: general_cf
+  name: amazon
+
+model:
+  name: dccf_plus
+  # general parameters here
+  embedding_size: 32
+  intent_num: 128
+
+  # data-specific parameters here
+  layer_num: 2
+  reg_weight: 1.0e-4
+  cl_weight: 1.0e-3
+  cl_temperature: 0.1
+  kd_weight: 1.0e-2
+  kd_temperature: 0.5
+  # for amazon
+  amazon:
+    layer_num: 2
+    reg_weight: 1.0e-4
+    cl_weight: 1.0e-3
+    cl_temperature: 0.1
+    kd_weight: 1.0e-2
+    kd_temperature: 0.5
+  # for yelp
+  yelp:
+    layer_num: 2
+    reg_weight: 1.0e-4
+    cl_weight: 1.0e-3
+    cl_temperature: 0.1
+    kd_weight: 1.0e-2
+    kd_temperature: 0.2
+  # for steam
+  steam:
+    layer_num: 3
+    reg_weight: 1.0e-3
+    cl_weight: 1.0e-3
+    cl_temperature: 0.1
+    kd_weight: 1.0e-2
+    kd_temperature: 0.5
+

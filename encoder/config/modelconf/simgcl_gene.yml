@@ -1,0 +1,69 @@
+optimizer:
+  name: adam
+  lr: 1.0e-3
+  weight_decay: 0
+
+train:
+  epoch: 3000
+  batch_size: 4096
+  save_model: true
+  loss: pairwise
+  test_step: 3
+  reproducible: true
+  seed: 2023
+  patience: 5
+
+test:
+  metrics: [recall, ndcg]
+  k: [5, 10, 20]
+  batch_size: 1024
+
+data:
+  type: general_cf
+  name: amazon
+
+model:
+  name: simgcl_gene
+  # general parameters here
+  keep_rate: 1.0
+  embedding_size: 32
+
+  # data-specific hyper-parameters here
+  layer_num: 3
+  reg_weight: 1.0e-5
+  cl_weight: 1.0e-1
+  cl_temperature: 0.2
+  mask_ratio: 0.05
+  recon_weight: 0.1
+  re_temperature: 0.2
+  eps: 0.9
+  # for amazon:
+  amazon:
+    layer_num: 3
+    reg_weight: 1.0e-5
+    cl_weight: 1.0e-1
+    cl_temperature: 0.2
+    mask_ratio: 0.05
+    recon_weight: 0.1
+    re_temperature: 0.2
+    eps: 0.9
+  # for yelp
+  yelp:
+    layer_num: 3
+    reg_weight: 1.0e-5
+    cl_weight: 1.0e-1
+    cl_temperature: 0.2
+    mask_ratio: 0.01
+    recon_weight: 0.01
+    re_temperature: 0.05
+    eps: 0.9
+  # for steam
+  steam:
+    layer_num: 3
+    reg_weight: 1.0e-5
+    cl_weight: 1.0e-1
+    cl_temperature: 0.5
+    mask_ratio: 0.05
+    recon_weight: 0.01
+    re_temperature: 0.1
+    eps: 0.2
