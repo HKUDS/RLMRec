@@ -1,6 +1,6 @@
 # RLMRec: Representation Learning with Large Language Models for Recommendation
 
- The codes are associated with the following paper:
+ This is the PyTorch implementation by <a href='https://github.com/Re-bin'>@Re-bin</a> for RLMRec model proposed in this [paper](https://arxiv.org/abs/2310.15950):
 
  >**Representation Learning with Large Language Models for Recommendation**  
  >Xubin Ren, Wei Wei, Lianghao Xia, Lixin Su, Suqi Cheng, Junfeng Wang, Dawei Yin, Chao Huang*
@@ -22,6 +22,8 @@ The codes are written in Python 3.9.16 with the following dependencies.
 - torch-scatter == 2.1.1
 - torch-sparse == 0.6.17
 - scipy == 1.10.1
+
+😉 The codes are developed based on the [SSLRec](https://github.com/HKUDS/SSLRec) framework.
 
 ##  Dataset
 
