@@ -81,4 +81,4 @@ Hypeparameters:
 
  **For advanced usage of arguments, run the code with --help argument.**
 
-**Thanks for your interest in our work**
+**Thanks for your interest in our work.**
