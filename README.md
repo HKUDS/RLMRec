@@ -47,11 +47,12 @@ Each dataset consists of a training set, a validation set, and a test set. Durin
 |--- usr_emb_np.pkl
 |--- itm_emb_np.pkl
 ```
-
-The `usr_prf.pkl` and `itm_prf.pkl` files store the generated profiles of users and items from ChatGPT. You can run the code
+### User/Item Profile
+The `usr_prf.pkl` and `itm_prf.pkl` files store the generated **profiles** of users and items from ChatGPT. You can run the code
 ```python data/read_profile.py```
 as an example to read the profiles.
 
+### Semantic Embedding
 The encoded semantic embeddings from the user/item profiles are stored in `usr_emb_np.pkl` and `itm_emb_np.pkl`.
 
 ## Examples to run the codes
