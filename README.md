@@ -55,7 +55,7 @@ as an example to read the profiles.
 ### Semantic Embedding
 The encoded semantic embeddings from the user/item profiles are stored in `usr_emb_np.pkl` and `itm_emb_np.pkl`.
 
-🤗 Feel free to use our processed data to improve your research!
+🤗 Welcome to use our processed data to improve your research!
 
 ## Examples to run the codes
 
