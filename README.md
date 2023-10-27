@@ -88,11 +88,11 @@ The command to evaluate the backebone models and RLMRec is as follows.
 
     ```python encoder/train_encoder.py --model {model_name} --dataset {dataset} --cuda 0```   
 
-  - RLMRec-Con (Constrastive Alignment):
+  - RLMRec-Con **(Constrastive Alignment)**:
 
     ```python encoder/train_encoder.py --model {model_name}_plus --dataset {dataset} --cuda 0```
 
-  - RLMRec-Gen (Generative Alignment):
+  - RLMRec-Gen **(Generative Alignment)**:
 
     ```python encoder/train_encoder.py --model {model_name}_gene --dataset {dataset} --cuda 0```
 
