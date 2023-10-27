@@ -51,9 +51,19 @@ Each dataset consists of a training set, a validation set, and a test set. Durin
 |--- itm_emb_np.pkl
 ```
 ### User/Item Profile
-The `usr_prf.pkl` and `itm_prf.pkl` files store the generated **profiles** of users and items from ChatGPT. You can run the code
-```python data/read_profile.py```
-as an example to read the profiles.
+- Both user and item profiles are generated from **Large Language Models** from raw text data.
+- The `user profile` (saved in `usr_prf.pkl`) encapsulates the particular types of items that users are inclined to favor. 
+- The `item profile` (saved in `itm_prf.pkl`) articulates the specific types of users that the item is apt to attract. 
+
+😊 You can run the code `python data/read_profile.py` as an example to read the profiles as follows.
+```
+$ python data/read_profile.py
+User 626's Profile:
+
+PROFILE: Based on the user's purchased items and reviews, it is difficult to determine a clear pattern of book preferences. However, the user seems to enjoy mystery novels with unique characters and a touch of humor. The user also seems to appreciate books with strong character development and fast-paced, thrilling plotlines.
+
+REASONING: Although there is a lack of specific details, the purchased items and reviews suggest that the user enjoys mystery novels with vibrant characters and comedic elements, as seen in 'Alison Wonderland' and 'Whole Lotta Trouble.' Furthermore, the review for 'Innocence: A Novel' suggests an appreciation for fast-paced, thrilling plots with dark themes. Additionally, the review for the book with no title highlights an appreciation for storytelling excellence and beautifully written dialogue.
+```
 
 ### Semantic Embedding
 The encoded semantic embeddings from the user/item profiles are stored in `usr_emb_np.pkl` and `itm_emb_np.pkl`.
