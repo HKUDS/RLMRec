@@ -15,13 +15,16 @@ In this paper, we propose a model-agnostic framework RLMRec that aims to enhance
 
 ## Environment
 
-The codes are written in Python 3.9.16 with the following dependencies.
+Run the following commands to create a conda environment:
 
-- numpy == 1.24.3
-- pytorch == 1.13.1 (GPU version)
-- torch-scatter == 2.1.1
-- torch-sparse == 0.6.17
-- scipy == 1.10.1
+```bash
+conda create -y -n rlmrec python=3.9
+conda activate rlmrec
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
+pip install torch-scatter -f https://data.pyg.org/whl/torch-1.13.1+cu117.html
+pip install torch-sparse -f https://data.pyg.org/whl/torch-1.13.1+cu117.html
+pip install pyyaml tqdm
+```
 
 😉 The codes are developed based on the [SSLRec](https://github.com/HKUDS/SSLRec) framework.
 

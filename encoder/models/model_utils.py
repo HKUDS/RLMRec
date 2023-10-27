@@ -1,9 +1,6 @@
 import torch as t
 from torch import nn
-from torch.nn import init
 from config.configurator import configs
-import torch.nn.functional as F
-import math
 
 class SpAdjEdgeDrop(nn.Module):
 	def __init__(self):
