@@ -60,9 +60,18 @@ Each dataset consists of a training set, a validation set, and a test set. Durin
 $ python data/read_profile.py
 User 123's Profile:
 
-PROFILE: Based on the kinds of books the user has purchased and reviewed, they are likely to enjoy historical fiction with strong character development, exploration of family dynamics, and thought-provoking themes. The user also seems to enjoy slower-paced plots that delve deep into various perspectives. Books with unexpected twists, connections between unrelated characters, and beautifully descriptive language could also be a good fit for this reader.
+PROFILE: Based on the kinds of books the user has purchased and reviewed, they are likely to enjoy historical
+fiction with strong character development, exploration of family dynamics, and thought-provoking themes. The user 
+also seems to enjoy slower-paced plots that delve deep into various perspectives. Books with unexpected twists, 
+connections between unrelated characters, and beautifully descriptive language could also be a good fit for 
+this reader.
 
-REASONING: The user has purchased several historical fiction novels such as 'Prayers for Sale' and 'Fall of Giants' which indicate an interest in exploring the past. Furthermore, the books they have reviewed, like 'Help for the Haunted' and 'The Leftovers,' involve complex family relationships. Additionally, the user appreciates thought-provoking themes and character-driven narratives as shown in their review of 'The Signature of All Things' and 'The Leftovers.' The user also enjoys descriptive language, as demonstrated in their review of 'Prayers for Sale.'
+REASONING: The user has purchased several historical fiction novels such as 'Prayers for Sale' and 'Fall of 
+Giants' which indicate an interest in exploring the past. Furthermore, the books they have reviewed, like 'Help 
+for the Haunted' and 'The Leftovers,' involve complex family relationships. Additionally, the user appreciates 
+thought-provoking themes and character-driven narratives as shown in their review of 'The Signature of All 
+Things' and 'The Leftovers.' The user also enjoys descriptive language, as demonstrated in their review of 
+'Prayers for Sale.'
 ```
 
 ### Semantic Embedding
