@@ -13,7 +13,7 @@
 
 In this paper, we propose a model-agnostic framework RLMRec that aims to enhance existing recommenders with LLM-empowered representation learning. It proposes a recommendation paradigm that integrates representation learning with LLMs to capture intricate semantic aspects of user behaviors and preferences. RLMRec incorporates auxiliary textual signals, develops a user/item profiling paradigm empowered by LLMs, and aligns the semantic space of LLMs with the representation space of collaborative relational signals through a cross-view alignment framework.
 
-## Environment
+## 📝 Environment
 
 Run the following commands to create a conda environment:
 
@@ -28,7 +28,7 @@ pip install pyyaml tqdm
 
 😉 The codes are developed based on the [SSLRec](https://github.com/HKUDS/SSLRec) framework.
 
-##  Dataset
+## 📚 Dataset
 
 We utilized three public datasets to evaluate RLMRec:  *Amazon-book, Yelp,* and *Steam*. 
 
@@ -80,7 +80,7 @@ Things' and 'The Leftovers.' The user also enjoys descriptive language, as demon
 
 🤗 Welcome to use our processed data to improve your research!
 
-## Examples to run the codes
+## 🚀 Examples to run the codes
 
 The command to evaluate the backebone models and RLMRec is as follows. 
 
