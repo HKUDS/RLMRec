@@ -52,7 +52,7 @@ Each dataset consists of a training set, a validation set, and a test set. Durin
 ```
 ### User/Item Profile
 - Both user and item profiles are generated from **Large Language Models** from raw text data.
-- The `user profile` (saved in `usr_prf.pkl`) encapsulates the particular types of items that users are inclined to favor. 
+- The `user profile` (saved in `usr_prf.pkl`) encapsulates the particular types of items that the user tends to prefer. 
 - The `item profile` (saved in `itm_prf.pkl`) articulates the specific types of users that the item is apt to attract. 
 
 😊 You can run the code `python data/read_profile.py` as an example to read the profiles as follows.
