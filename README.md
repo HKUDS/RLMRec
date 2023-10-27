@@ -58,11 +58,11 @@ Each dataset consists of a training set, a validation set, and a test set. Durin
 😊 You can run the code `python data/read_profile.py` as an example to read the profiles as follows.
 ```
 $ python data/read_profile.py
-User 626's Profile:
+User 123's Profile:
 
-PROFILE: Based on the user's purchased items and reviews, it is difficult to determine a clear pattern of book preferences. However, the user seems to enjoy mystery novels with unique characters and a touch of humor. The user also seems to appreciate books with strong character development and fast-paced, thrilling plotlines.
+PROFILE: Based on the kinds of books the user has purchased and reviewed, they are likely to enjoy historical fiction with strong character development, exploration of family dynamics, and thought-provoking themes. The user also seems to enjoy slower-paced plots that delve deep into various perspectives. Books with unexpected twists, connections between unrelated characters, and beautifully descriptive language could also be a good fit for this reader.
 
-REASONING: Although there is a lack of specific details, the purchased items and reviews suggest that the user enjoys mystery novels with vibrant characters and comedic elements, as seen in 'Alison Wonderland' and 'Whole Lotta Trouble.' Furthermore, the review for 'Innocence: A Novel' suggests an appreciation for fast-paced, thrilling plots with dark themes. Additionally, the review for the book with no title highlights an appreciation for storytelling excellence and beautifully written dialogue.
+REASONING: The user has purchased several historical fiction novels such as 'Prayers for Sale' and 'Fall of Giants' which indicate an interest in exploring the past. Furthermore, the books they have reviewed, like 'Help for the Haunted' and 'The Leftovers,' involve complex family relationships. Additionally, the user appreciates thought-provoking themes and character-driven narratives as shown in their review of 'The Signature of All Things' and 'The Leftovers.' The user also enjoys descriptive language, as demonstrated in their review of 'Prayers for Sale.'
 ```
 
 ### Semantic Embedding
