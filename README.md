@@ -108,3 +108,15 @@ Hypeparameters:
  **For advanced usage of arguments, run the code with --help argument.**
 
 **Thanks for your interest in our work.**
+
+## Citation
+If you find this work is helpful to your research, please consider citing our paper:
+```
+@article{ren2023representation,
+  title={Representation Learning with Large Language Models for Recommendation},
+  author={Ren, Xubin and Wei, Wei and Xia, Lianghao and Su, Lixin and Cheng, Suqi and Wang, Junfeng and Yin, Dawei and Huang, Chao},
+  journal={arXiv preprint arXiv:2310.15950},
+  year={2023}
+}
+```
+
