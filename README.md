@@ -109,7 +109,7 @@ Hypeparameters:
 
 **Thanks for your interest in our work.**
 
-## Citation
+## 🌟 Citation
 If you find this work is helpful to your research, please consider citing our paper:
 ```
 @article{ren2023representation,
