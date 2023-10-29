@@ -50,15 +50,3 @@ model:
     reg_weight: 1.0e-8
     kd_weight: 1.0e-3
     kd_temperature: 0.1
-  # for yelp_pre:
-  yelp_pre:
-    layer_num: 3
-    reg_weight: 1.0e-8
-    kd_weight: 1.0e-3
-    kd_temperature: 0.1
-  # for amazon_noise
-  amazon_noise:
-    layer_num: 3
-    reg_weight: 1.0e-7
-    kd_weight: 1.0e-2
-    kd_temperature: 0.2

@@ -55,19 +55,5 @@ model:
     mask_ratio: 0.15
     recon_weight: 0.1
     re_temperature: 0.5
-  # for yelp_pre:
-  yelp_pre:
-    layer_num: 3
-    reg_weight: 1.0e-7
-    mask_ratio: 0.05
-    recon_weight: 0.1
-    re_temperature: 1.0
-  # for amazon_noise
-  amazon_noise:
-    layer_num: 2
-    reg_weight: 1.0e-7
-    mask_ratio: 0.15
-    recon_weight: 0.1
-    re_temperature: 0.5
 
 

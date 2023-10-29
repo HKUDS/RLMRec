@@ -44,12 +44,3 @@ model:
   steam:
     layer_num: 2
     reg_weight: 1.0e-6
-  # for yelp_pre
-  yelp_pre:
-    layer_num: 3
-    reg_weight: 1.0e-7
-  # for amazon_noise
-  amazon_noise:
-    layer_num: 3
-    reg_weight: 1.0e-6
-
