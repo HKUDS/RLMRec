@@ -82,7 +82,7 @@ Things' and 'The Leftovers.' The user also enjoys descriptive language, as demon
 
 ## 🚀 Examples to run the codes
 
-The command to evaluate the backebone models and RLMRec is as follows. 
+The command to evaluate the backbone models and RLMRec is as follows. 
 
   - Backbone 
 
