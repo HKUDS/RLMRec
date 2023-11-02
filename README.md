@@ -117,15 +117,15 @@ Firstly, we need to complete the following three steps.
 
 Then, here are the commands to generate the desired output with examples:
 
-  - Item Profile Generation:
+  - **Item Profile Generation**:
 
     ```python generation/item/generate_profile.py```   
 
-  - User Profile Generation:
+  - **User Profile Generation**:
 
     ```python generation/user/generate_profile.py```
 
-  - Semantic Representation:
+  - **Semantic Representation**:
 
     ```python generation/emb/generate_emb.py```
 
