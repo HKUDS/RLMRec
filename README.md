@@ -129,6 +129,8 @@ Then, here are the commands to generate the desired output with examples:
 
     ```python generation/emb/generate_emb.py```
 
+For semantic representation encoding, you can also try other text embedding models like [Instructor](https://github.com/xlang-ai/instructor-embedding) or [Contriever](https://github.com/facebookresearch/contriever).
+
 😀 The **instructions** we designed are saved in the {user/item}_system_prompt.txt files. You can modify them according to your requirements and generate the desired output!
 
 ## 🌟 Citation
