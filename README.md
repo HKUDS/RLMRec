@@ -108,7 +108,7 @@ Hypeparameters:
  **For advanced usage of arguments, run the code with --help argument.**
 
 ## 🌌 Profile Generation and Semantic Representation Encoding
-Here we provide some code examples to generate User/Item profiles and semantic representations.
+Here we provide some examples with *Yelp* Data to generate User/Item profiles and semantic representations.
 
 Firstly, we need to complete the following three steps.
 - Install the openai library `pip install openai`
