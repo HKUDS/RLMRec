@@ -11,7 +11,7 @@
 <img src="RLMRec.png" alt="RLMRec" />
 </p>
 
-In this paper, we propose a model-agnostic framework RLMRec that aims to enhance existing recommenders with LLM-empowered representation learning. It proposes a recommendation paradigm that integrates representation learning with LLMs to capture intricate semantic aspects of user behaviors and preferences. RLMRec incorporates auxiliary textual signals, develops a user/item profiling paradigm empowered by LLMs, and aligns the semantic space of LLMs with the representation space of collaborative relational signals through a cross-view alignment framework.
+In this paper, we propose a model-agnostic framework **RLMRec** that enhances existing recommenders with LLM-empowered representation learning. It proposes a paradigm that integrates representation learning with LLMs to capture intricate semantic aspects of user behaviors and preferences. RLMRec incorporates auxiliary textual signals, develops a user/item profiling paradigm empowered by LLMs, and aligns the semantic space of LLMs with the representation space of collaborative relational signals through a cross-view alignment framework.
 
 ## 📝 Environment
 
@@ -82,7 +82,7 @@ Things' and 'The Leftovers.' The user also enjoys descriptive language, as demon
 
 ## 🚀 Examples to run the codes
 
-The command to evaluate the backebone models and RLMRec is as follows. 
+The command to evaluate the backbone models and RLMRec is as follows. 
 
   - Backbone 
 
