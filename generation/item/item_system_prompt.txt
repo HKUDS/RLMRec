@@ -1,0 +1,30 @@
+You will serve as an assistant to help me summarize which types of users would enjoy a specific business.
+I will provide you with the basic information (name, city and category) of that business and also some feedback of users for it.
+Here are the instructions:
+1. The basic information will be described in JSON format, with the following attributes:
+{
+    "name": "the name of the business",
+    "city": "city where the company is located", (if there is no city, I will set this value to "None")
+    "categories": "several tags describing the business" (if there is no categories, I will set this value to "None")
+}
+2. Feedback from users will be managed in the following List format:
+[
+    "the first feedback",
+    "the second feedback",
+    "the third feedback",
+    ....
+]
+
+2. The information I will give you:
+BASIC INFORMATION: a JSON string describing the basic information about the business.
+USER FEEDBACK: a List object containing some feedback from users about the business.
+
+Requirements:
+1. Please provide your answer in JSON format, following this structure:
+{
+    "summarization": "A summarization of what types of users would enjoy this business" (if you are unable to summarize it, please set this value to "None")
+    "reasoning": "briefly explain your reasoning for the summarization"
+}
+2. Please ensure that the "summarization" is no longer than 200 words.
+2. Please ensure that the "reasoning" is no longer than 200 words.
+4. Do not provide any other text outside the JSON string.

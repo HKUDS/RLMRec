@@ -74,7 +74,7 @@ Things' and 'The Leftovers.' The user also enjoys descriptive language, as demon
 'Prayers for Sale.'
 ```
 
-### Semantic Embedding
+### Semantic Representation
 - Each user and item has a semantic embedding encoded from its own profile using **Text Embedding Models**.
 - The encoded semantic embeddings are stored in `usr_emb_np.pkl` and `itm_emb_np.pkl`.
 
@@ -107,7 +107,29 @@ Hypeparameters:
 
  **For advanced usage of arguments, run the code with --help argument.**
 
-**Thanks for your interest in our work.**
+## 🌌 Profile Generation and Semantic Representation Encoding
+Here we provide some code examples to generate User/Item profiles and semantic representations.
+
+Firstly, we need to complete the following three steps.
+- Install the openai library `pip install openai`
+- Prepare your **OpenAI API Key**
+- Enter your OpenAI API key on `Line 5` of the following three files: `generation\{item/user/emb}\generate_profile.py`.
+
+Then, here are the commands to generate the desired output with examples:
+
+  - Item Profile Generation:
+
+    ```python generation/item/generate_profile.py```   
+
+  - User Profile Generation:
+
+    ```python generation/user/generate_profile.py```
+
+  - Semantic Representation:
+
+    ```python generation/emb/generate_emb.py```
+
+😀 The **instructions** we designed are saved in the {user/item}_system_prompt.txt files. You can modify them according to your requirements and generate the desired output!
 
 ## 🌟 Citation
 If you find this work is helpful to your research, please consider citing our paper:
@@ -118,5 +140,6 @@ If you find this work is helpful to your research, please consider citing our pa
   journal={arXiv preprint arXiv:2310.15950},
   year={2023}
 }
+**Thanks for your interest in our work!**
 ```
 
