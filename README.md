@@ -113,7 +113,7 @@ Here we provide some examples with *Yelp* Data to generate User/Item profiles an
 Firstly, we need to complete the following three steps.
 - Install the openai library `pip install openai`
 - Prepare your **OpenAI API Key**
-- Enter your OpenAI API key on `Line 5` of the following three files: `generation\{item/user/emb}\generate_profile.py`.
+- Enter your key on `Line 5` of these files: `generation\{item/user/emb}\generate_profile.py`.
 
 Then, here are the commands to generate the desired output with examples:
 
