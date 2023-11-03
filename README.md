@@ -107,7 +107,7 @@ Hypeparameters:
 
  **For advanced usage of arguments, run the code with --help argument.**
 
-## 🌌 Profile Generation and Semantic Representation Encoding
+## 🔮 Profile Generation and Semantic Representation Encoding
 Here we provide some examples with *Yelp* Data to generate user/item profiles and semantic representations.
 
 Firstly, we need to complete the following three steps.
