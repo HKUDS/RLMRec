@@ -15,9 +15,11 @@ Here are the instructions:
     "the third feedback",
     ....
 ]
+
 2. The information I will give you:
 BASIC INFORMATION: a JSON string describing the basic information about the game.
 USER FEEDBACK: a List object containing some feedback from users about the game.
+
 Requirements:
 1. Please provide your answer in JSON format, following this structure:
 {

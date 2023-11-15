@@ -6,6 +6,7 @@ Here are the instructions:
     "title": "the title of the book", (if there is no title, I will set this value to "None")
     "description": "a description of the book", (if there is no description, I will set this value to "None")
 }
+
 Requirements:
 1. Please provide your answer in JSON format, following this structure:
 {

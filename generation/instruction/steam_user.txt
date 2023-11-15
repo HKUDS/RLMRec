@@ -7,8 +7,10 @@ Here are the instructions:
     "description": "a description of what types of users will like this game",
     "review": "the user's review on the game" (if there is no review, I will set this value to "None")
 }
+
 2. The information I will give you:
 PLAYED GAMES: a list of JSON strings describing the games that the user has played.
+
 Requirements:
 1. Please provide your answer in JSON format, following this structure:
 {
