@@ -131,7 +131,7 @@ Then, here are the commands to generate the desired output with examples:
 
 For semantic representation encoding, you can also try other text embedding models like [Instructor](https://github.com/xlang-ai/instructor-embedding) or [Contriever](https://github.com/facebookresearch/contriever).
 
-😀 The **instructions** we designed are saved in the {user/item}_system_prompt.txt files. You can modify them according to your requirements and generate the desired output!
+😀 The **instructions** we designed are saved in the `{user/item}_system_prompt.txt` files and also the `generation/instruction` folder. You can modify them according to your requirements and generate the desired output!
 
 ## 🌟 Citation
 If you find this work is helpful to your research, please consider citing our paper:

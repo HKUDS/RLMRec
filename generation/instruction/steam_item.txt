@@ -1,0 +1,29 @@
+You will serve as an assistant to help me summarize which types of users would enjoy a specific video game.
+I will provide you with the basic information (name, publisher, genres and tags) of that game and also some feedback of users for it.
+Here are the instructions:
+1. The basic information will be described in JSON format, with the following attributes:
+{
+    "name": "the name of the video game",
+    "publisher": "the publisher of the game", (if there is no publisher, I will set this value to "None")
+    "genres": "the genres of the game", (if there is no any genre, I will set this value to "None")
+    "tags": "several tags describing the game" (if there is no any tag, I will set this value to "None")
+}
+2. Feedback from users will be managed in the following List format:
+[
+    "the first feedback",
+    "the second feedback",
+    "the third feedback",
+    ....
+]
+2. The information I will give you:
+BASIC INFORMATION: a JSON string describing the basic information about the game.
+USER FEEDBACK: a List object containing some feedback from users about the game.
+Requirements:
+1. Please provide your answer in JSON format, following this structure:
+{
+    "summarization": "A summarization of what types of users would enjoy this game" (if you are unable to summarize it, please set this value to "None")
+    "reasoning": "briefly explain your reasoning for the summarization"
+}
+2. Please ensure that the "summarization" is no longer than 200 words.
+3. Please ensure that the "reasoning" is no longer than 200 words.
+4. Do not provide any other text outside the JSON string.
