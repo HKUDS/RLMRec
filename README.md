@@ -44,8 +44,6 @@ First of all, please **download the data** by running following commands.
  wget https://archive.org/download/rlmrec_data/data.zip
  unzip data.zip
  ```
-You can also download our data from the [[Google Drive](https://drive.google.com/file/d/1PzePFsBcYofG1MV2FisFLBM2lMytbMdW/view?usp=drive_link
-)].
 
 
 Each dataset consists of a training set, a validation set, and a test set. During the training process, we utilize the validation set to determine when to stop the training in order to prevent overfitting.
