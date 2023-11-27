@@ -45,8 +45,8 @@ Each dataset consists of a training set, a validation set, and a test set. Durin
 |--- trn_mat.pkl    # training set (sparse matrix)
 |--- val_mat.pkl    # validation set (sparse matrix)
 |--- tst_mat.pkl    # test set (sparse matrix)
-|--- usr_prf.pkl    # user profiles
-|--- itm_prf.pkl    # item profiles
+|--- usr_prf.pkl    # text description of users
+|--- itm_prf.pkl    # text description of items
 |--- usr_emb_np.pkl # user text embeddings
 |--- itm_emb_np.pkl # item text embeddings
 ```
