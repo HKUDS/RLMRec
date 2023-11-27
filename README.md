@@ -19,7 +19,7 @@ You can run the following command to download the codes faster:
 git clone --depth 1 https://github.com/HKUDS/RLMRec.git
 ```
 
-Run the following commands to create a conda environment:
+Then run the following commands to create a conda environment:
 
 ```bash
 conda create -y -n rlmrec python=3.9
