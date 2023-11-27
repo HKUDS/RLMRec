@@ -42,13 +42,13 @@ First of all, please **unzip the data** by running following commands.
 Each dataset consists of a training set, a validation set, and a test set. During the training process, we utilize the validation set to determine when to stop the training in order to prevent overfitting.
 ```
 - amazon(yelp/steam)
-|--- trn_mat.pkl
-|--- val_mat.pkl
-|--- tst_mat.pkl
-|--- usr_prf.pkl
-|--- itm_prf.pkl
-|--- usr_emb_np.pkl
-|--- itm_emb_np.pkl
+|--- trn_mat.pkl    # training set (sparse matrix)
+|--- val_mat.pkl    # validation set (sparse matrix)
+|--- tst_mat.pkl    # test set (sparse matrix)
+|--- usr_prf.pkl    # user profiles
+|--- itm_prf.pkl    # item profiles
+|--- usr_emb_np.pkl # user text embeddings
+|--- itm_emb_np.pkl # item text embeddings
 ```
 
 ### User/Item Profile
