@@ -51,7 +51,7 @@ Each dataset consists of a training set, a validation set, and a test set. Durin
 |--- itm_emb_np.pkl
 ```
 ### User/Item Profile
-- Each profile is a text description of **the preference of user/item**.
+- Each profile is a **high quality text description** of a user/item.
 - Both user and item profiles are generated from **Large Language Models** from raw text data.
 - The `user profile` (saved in `usr_prf.pkl`) shows the particular types of items that the user tends to prefer. 
 - The `item profile` (saved in `itm_prf.pkl`) articulates the specific types of users that the item is apt to attract. 
