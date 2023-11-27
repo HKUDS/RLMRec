@@ -28,9 +28,9 @@ pip install pyyaml tqdm
 
 😉 The codes are developed based on the [SSLRec](https://github.com/HKUDS/SSLRec) framework.
 
-## 📚 Dataset
+## 📚 Text-attributed Recommendation Dataset
 
-We utilized three public datasets to evaluate RLMRec:  *Amazon-book, Yelp,* and *Steam*. 
+We utilized three public datasets to evaluate RLMRec:  *Amazon-book, Yelp,* and *Steam* and generated text description to each user/item.
 
 First of all, please **unzip the data** by running following commands.
  ```
@@ -50,11 +50,12 @@ Each dataset consists of a training set, a validation set, and a test set. Durin
 |--- usr_emb_np.pkl
 |--- itm_emb_np.pkl
 ```
+
 ### User/Item Profile
 - Each profile is a **high quality text description** of a user/item.
 - Both user and item profiles are generated from **Large Language Models** from raw text data.
-- The `user profile` (saved in `usr_prf.pkl`) shows the particular types of items that the user tends to prefer. 
-- The `item profile` (saved in `itm_prf.pkl`) articulates the specific types of users that the item is apt to attract. 
+- The `user profile` (in `usr_prf.pkl`) shows the particular types of items that the user tends to prefer. 
+- The `item profile` (in `itm_prf.pkl`) articulates the specific types of users that the item is apt to attract. 
 
 😊 You can run the code `python data/read_profile.py` as an example to read the profiles as follows.
 ```
