@@ -32,7 +32,7 @@ pip install pyyaml tqdm
 
 We utilized three public datasets to evaluate RLMRec:  *Amazon-book, Yelp,* and *Steam*. 
 
-First of all, please unzip the data by running following commands.
+First of all, please **unzip the data** by running following commands.
  ```
  cd data/
  cat data.tar.gz0* > data.tar.gz
@@ -51,6 +51,7 @@ Each dataset consists of a training set, a validation set, and a test set. Durin
 |--- itm_emb_np.pkl
 ```
 ### User/Item Profile
+- Each profile is a text description of **the preference of user/item**.
 - Both user and item profiles are generated from **Large Language Models** from raw text data.
 - The `user profile` (saved in `usr_prf.pkl`) shows the particular types of items that the user tends to prefer. 
 - The `item profile` (saved in `itm_prf.pkl`) articulates the specific types of users that the item is apt to attract. 
