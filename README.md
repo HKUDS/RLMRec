@@ -14,6 +14,10 @@
 In this paper, we propose a model-agnostic framework **RLMRec** that enhances existing recommenders with LLM-empowered representation learning. It proposes a paradigm that integrates representation learning with LLMs to capture intricate semantic aspects of user behaviors and preferences. RLMRec incorporates auxiliary textual signals, develops a user/item profiling paradigm empowered by LLMs, and aligns the semantic space of LLMs with the representation space of collaborative relational signals through a cross-view alignment framework.
 
 ## 📝 Environment
+You can run the following command to clone the repo faster:
+```bash
+git clone --depth 1 https://github.com/HKUDS/RLMRec.git
+```
 
 Run the following commands to create a conda environment:
 
