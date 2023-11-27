@@ -30,7 +30,9 @@ pip install pyyaml tqdm
 
 ## 📚 Text-attributed Recommendation Dataset
 
-We utilized three public datasets to evaluate RLMRec:  *Amazon-book, Yelp,* and *Steam* and generated text description to each user/item.
+We utilized three public datasets to evaluate RLMRec:  *Amazon-book, Yelp,* and *Steam*.
+
+Each user or item has a generated text description.
 
 First of all, please **unzip the data** by running following commands.
  ```
