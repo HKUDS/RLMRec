@@ -34,12 +34,15 @@ We utilized three public datasets to evaluate RLMRec:  *Amazon-book, Yelp,* and 
 
 Each user or item has a generated text description.
 
-First of all, please **unzip the data** by running following commands.
+First of all, please **download the data** by running following commands.
  ```
  cd data/
- cat data.tar.gz0* > data.tar.gz
- tar zxvf data.tar.gz
+ wget https://archive.org/download/rlmrec_data/data.zip
+ unzip data.zip
  ```
+You can also download our data from the [[Google Drive](https://drive.google.com/file/d/1PzePFsBcYofG1MV2FisFLBM2lMytbMdW/view?usp=drive_link
+)].
+
 
 Each dataset consists of a training set, a validation set, and a test set. During the training process, we utilize the validation set to determine when to stop the training in order to prevent overfitting.
 ```
