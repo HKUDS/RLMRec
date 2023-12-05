@@ -58,13 +58,13 @@ class DCCF_gene(BaseModel):
         itmprf_embeds = torch.tensor(configs['itmprf_embeds']).float().cuda()
         self.prf_embeds = torch.concat([usrprf_embeds, itmprf_embeds], dim=0)
 
-		# generative process
+        # generative process
         self.masker = NodeMask(self.mask_ratio, self.embedding_size)
         self.mlp = nn.Sequential(
-			nn.Linear(self.embedding_size, (self.prf_embeds.shape[1] + self.embedding_size) // 2),
-			nn.LeakyReLU(),
-			nn.Linear((self.prf_embeds.shape[1] + self.embedding_size) // 2, self.prf_embeds.shape[1])
-		)
+            nn.Linear(self.embedding_size, (self.prf_embeds.shape[1] + self.embedding_size) // 2),
+            nn.LeakyReLU(),
+            nn.Linear((self.prf_embeds.shape[1] + self.embedding_size) // 2, self.prf_embeds.shape[1])
+        )
 
         self._init_weight()
 
