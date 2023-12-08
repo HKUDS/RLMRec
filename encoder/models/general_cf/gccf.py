@@ -58,12 +58,12 @@ class GCCF(BaseModel):
         losses = {'bpr_loss': bpr_loss, 'reg_loss': reg_loss}
         return loss, losses
 
-    def _predict_all_wo_mask(self, ancs):
-        user_embeds, item_embeds = self.forward(self.adj)
-        pck_users = ancs
-        pck_user_embeds = user_embeds[pck_users]
-        full_preds = pck_user_embeds @ item_embeds.T
-        return full_preds
+    # def _predict_all_wo_mask(self, ancs):
+    #     user_embeds, item_embeds = self.forward(self.adj)
+    #     pck_users = ancs
+    #     pck_user_embeds = user_embeds[pck_users]
+    #     full_preds = pck_user_embeds @ item_embeds.T
+    #     return full_preds
 
     def full_predict(self, batch_data):
         user_embeds, item_embeds, _ = self.forward(self.adj)
