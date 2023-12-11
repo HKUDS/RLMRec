@@ -3,7 +3,7 @@ I will provide you with information about games that the user has interacted, as
 Here are the instructions:
 1. Each interacted game will be described in JSON format, with the following attributes:
 {
-    "name": "the name of the game", (if there is no game, I will set this value to "None")
+    "title": "the name/title of the game", (if there is no name, I will set this value to "None")
     "description": "a description of what types of users will like this game",
     "review": "the user's review on the game" (if there is no review, I will set this value to "None")
 }
