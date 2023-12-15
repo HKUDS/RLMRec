@@ -89,6 +89,15 @@ Things' and 'The Leftovers.' The user also enjoys descriptive language, as demon
 - Each user and item has a semantic embedding encoded from its own profile using **Text Embedding Models**.
 - The encoded semantic embeddings are stored in `usr_emb_np.pkl` and `itm_emb_np.pkl`.
 
+### Mapping to Original Data
+
+The original data of our dataset can be found from following links (thanks to their work):
+- Yelp: https://www.yelp.com/dataset
+- Amazon-book: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html
+- Steam: https://github.com/kang205/SASRec
+
+We provide the **mapping dictionary** in JSON format in the `data/mapper` folder to map the `user/item ID` in our processed data to the `original identification` in original data (e.g., asin for items in Amazon-book).
+
 🤗 Welcome to use our processed data to improve your research!
 
 ## 🚀 Examples to run the codes
