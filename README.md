@@ -155,7 +155,7 @@ For semantic representation encoding, you can also try other text embedding mode
 
 ## 🌟 Citation
 If you find this work is helpful to your research, please consider citing our paper:
-```
+```bibtex
 @article{ren2023representation,
   title={Representation Learning with Large Language Models for Recommendation},
   author={Ren, Xubin and Wei, Wei and Xia, Lianghao and Su, Lixin and Cheng, Suqi and Wang, Junfeng and Yin, Dawei and Huang, Chao},
