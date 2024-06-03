@@ -157,11 +157,12 @@ For semantic representation encoding, you can also try other text embedding mode
 ## 🌟 Citation
 If you find this work is helpful to your research, please consider citing our paper:
 ```bibtex
-@article{ren2023representation,
-  title={Representation Learning with Large Language Models for Recommendation},
+@inproceedings{ren2024representation,
+  title={Representation learning with large language models for recommendation},
   author={Ren, Xubin and Wei, Wei and Xia, Lianghao and Su, Lixin and Cheng, Suqi and Wang, Junfeng and Yin, Dawei and Huang, Chao},
-  journal={arXiv preprint arXiv:2310.15950},
-  year={2023}
+  booktitle={Proceedings of the ACM on Web Conference 2024},
+  pages={3464--3475},
+  year={2024}
 }
 ```
 
