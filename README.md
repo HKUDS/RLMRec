@@ -1,5 +1,7 @@
 # RLMRec: Representation Learning with Large Language Models for Recommendation
 
+<img src='RLMRec_cover.png' />
+
  This is the PyTorch implementation by <a href='https://github.com/Re-bin'>@Re-bin</a> for RLMRec model proposed in this [paper](https://arxiv.org/abs/2310.15950):
 
  >**Representation Learning with Large Language Models for Recommendation**  
