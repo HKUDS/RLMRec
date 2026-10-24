@@ -2,7 +2,6 @@ import os
 import time
 import random
 import numpy as np
-from numpy import random
 from copy import deepcopy
 from tqdm import tqdm
 import torch
@@ -14,16 +13,17 @@ from .utils import DisabledSummaryWriter, log_exceptions
 
 
 def init_seed():
-    if 'reproducible' in configs['train']:
-        if configs['train']['reproducible']:
-            seed = configs['train']['seed']
-        random.seed(seed)
-        np.random.seed(seed)
-        torch.manual_seed(seed)
-        torch.cuda.manual_seed(seed)
-        torch.cuda.manual_seed_all(seed)
-        torch.backends.cudnn.benchmark = False
-        torch.backends.cudnn.deterministic = True
+    train_config = configs['train']
+    if not train_config.get('reproducible', False):
+        return
+    seed = train_config['seed']
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.benchmark = False
+    torch.backends.cudnn.deterministic = True
 
 
 class Trainer(object):
