@@ -1,6 +1,5 @@
 import torch as t
 from torch import nn
-from config.configurator import configs
 
 class SpAdjEdgeDrop(nn.Module):
     def __init__(self):
@@ -24,7 +23,5 @@ class NodeDrop(nn.Module):
     def forward(self, embeds, keep_rate):
         if keep_rate == 1.0:
             return embeds
-        data_config = configs['data']
-        node_num = data_config['user_num'] + data_config['item_num']
-        mask = (t.rand(node_num) + keep_rate).floor().view([-1, 1])
+        mask = (t.rand((embeds.shape[0], 1), device=embeds.device, dtype=embeds.dtype) + keep_rate).floor()
         return embeds * mask
